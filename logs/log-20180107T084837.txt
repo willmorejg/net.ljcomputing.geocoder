@@ -1,0 +1,541 @@
+07 Jan 2018 08:48:37.398 566  [background-preinit] DEBUG org.jboss.logging 160 : Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+07 Jan 2018 08:48:37.401 569  [background-preinit] INFO  o.h.validator.internal.util.Version 30 : HV000001: Hibernate Validator 5.3.6.Final
+07 Jan 2018 08:48:37.420 588  [background-preinit] DEBUG o.h.v.i.e.r.DefaultTraversableResolver 103 : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+07 Jan 2018 08:48:37.421 589  [background-preinit] DEBUG o.h.v.i.e.r.DefaultTraversableResolver 114 : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+07 Jan 2018 08:48:37.425 593  [main] INFO  n.l.g.s.i.GeocoderServiceImplTest 48 : Starting GeocoderServiceImplTest on maxine with PID 18268 (started by jim in /home/jim/git/net.ljcomputing.geocoder.git/geocoder)
+07 Jan 2018 08:48:37.425 593  [main] DEBUG n.l.g.s.i.GeocoderServiceImplTest 51 : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+07 Jan 2018 08:48:37.425 593  [main] INFO  n.l.g.s.i.GeocoderServiceImplTest 593 : No active profile set, falling back to default profiles: default
+07 Jan 2018 08:48:38.013 1181 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver 103 : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+07 Jan 2018 08:48:38.014 1182 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver 114 : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+07 Jan 2018 08:48:38.022 1190 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver 103 : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+07 Jan 2018 08:48:38.023 1191 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver 114 : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+07 Jan 2018 08:48:38.025 1193 [main] DEBUG o.h.v.i.engine.ConfigurationImpl 163 : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+07 Jan 2018 08:48:38.026 1194 [main] DEBUG o.h.v.i.engine.ConfigurationImpl 185 : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+07 Jan 2018 08:48:38.027 1195 [main] DEBUG o.h.v.i.engine.ConfigurationImpl 199 : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy59
+07 Jan 2018 08:48:38.029 1197 [main] DEBUG o.h.v.i.xml.ValidationXmlParser 99 : Trying to load META-INF/validation.xml for XML based Validator configuration.
+07 Jan 2018 08:48:38.030 1198 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper 47 : Trying to load META-INF/validation.xml via user class loader
+07 Jan 2018 08:48:38.031 1199 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper 54 : Trying to load META-INF/validation.xml via TCCL
+07 Jan 2018 08:48:38.031 1199 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper 60 : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+07 Jan 2018 08:48:38.032 1200 [main] DEBUG o.h.v.i.xml.ValidationXmlParser 106 : No META-INF/validation.xml found. Using annotation based configuration only.
+07 Jan 2018 08:48:38.447 1615 [main] DEBUG o.h.jpa.internal.util.LogHelper 102 : PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: sun.misc.Launcher$AppClassLoader@6bc7c054
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: org.apache.tomcat.jdbc.pool.DataSource@77128dab{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.postgresql.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:postgresql://127.0.0.1:5432/tigerdb; username=apartments; validationQuery=SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=3000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; useStatementFacade=true; }
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/home/jim/git/net.ljcomputing.geocoder.git/geocoder/target/test-classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		net.ljcomputing.geocoder.entity.GeocoderResults]
+	Mapping files names []
+	Properties []
+07 Jan 2018 08:48:38.461 1629 [main] DEBUG o.h.i.i.IntegratorServiceImpl 46 : Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+07 Jan 2018 08:48:38.463 1631 [main] DEBUG o.h.i.i.IntegratorServiceImpl 46 : Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+07 Jan 2018 08:48:38.465 1633 [main] DEBUG o.h.i.i.IntegratorServiceImpl 46 : Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+07 Jan 2018 08:48:38.465 1633 [main] DEBUG o.h.i.i.IntegratorServiceImpl 46 : Adding Integrator [org.hibernate.jpa.event.spi.JpaIntegrator].
+07 Jan 2018 08:48:38.506 1674 [main] INFO  org.hibernate.Version 37 : HHH000412: Hibernate Core {5.0.12.Final}
+07 Jan 2018 08:48:38.508 1676 [main] INFO  org.hibernate.cfg.Environment 213 : HHH000206: hibernate.properties not found
+07 Jan 2018 08:48:38.509 1677 [main] INFO  org.hibernate.cfg.Environment 317 : HHH000021: Bytecode provider name : javassist
+07 Jan 2018 08:48:38.517 1685 [main] INFO  o.h.s.integration.SpatialService 43 : HHH80000001: hibernate-spatial integration enabled : true
+07 Jan 2018 08:48:38.523 1691 [main] DEBUG o.h.service.spi.ServiceBinding 68 : Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+07 Jan 2018 08:48:38.523 1691 [main] DEBUG o.h.service.spi.ServiceBinding 68 : Overriding existing service binding [org.hibernate.spatial.integration.SpatialService]
+07 Jan 2018 08:48:38.540 1708 [main] DEBUG o.h.c.i.RegionFactoryInitiator 74 : Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+07 Jan 2018 08:48:38.547 1715 [main] INFO  o.h.annotations.common.Version 66 : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+07 Jan 2018 08:48:38.589 1757 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration boolean -> org.hibernate.type.BooleanType@47b179d7
+07 Jan 2018 08:48:38.589 1757 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration boolean -> org.hibernate.type.BooleanType@47b179d7
+07 Jan 2018 08:48:38.589 1757 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@47b179d7
+07 Jan 2018 08:48:38.590 1758 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@95bb2a2
+07 Jan 2018 08:48:38.591 1759 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration true_false -> org.hibernate.type.TrueFalseType@25da615a
+07 Jan 2018 08:48:38.592 1760 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration yes_no -> org.hibernate.type.YesNoType@396e6d9
+07 Jan 2018 08:48:38.593 1761 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration byte -> org.hibernate.type.ByteType@1a891add
+07 Jan 2018 08:48:38.594 1762 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration byte -> org.hibernate.type.ByteType@1a891add
+07 Jan 2018 08:48:38.594 1762 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@1a891add
+07 Jan 2018 08:48:38.595 1763 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration character -> org.hibernate.type.CharacterType@387bf2d9
+07 Jan 2018 08:48:38.595 1763 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration char -> org.hibernate.type.CharacterType@387bf2d9
+07 Jan 2018 08:48:38.596 1764 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@387bf2d9
+07 Jan 2018 08:48:38.597 1765 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration short -> org.hibernate.type.ShortType@7c447c76
+07 Jan 2018 08:48:38.597 1765 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration short -> org.hibernate.type.ShortType@7c447c76
+07 Jan 2018 08:48:38.598 1766 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7c447c76
+07 Jan 2018 08:48:38.599 1767 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration integer -> org.hibernate.type.IntegerType@6107165
+07 Jan 2018 08:48:38.599 1767 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration int -> org.hibernate.type.IntegerType@6107165
+07 Jan 2018 08:48:38.599 1767 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6107165
+07 Jan 2018 08:48:38.600 1768 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration long -> org.hibernate.type.LongType@7bc6d27a
+07 Jan 2018 08:48:38.601 1769 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration long -> org.hibernate.type.LongType@7bc6d27a
+07 Jan 2018 08:48:38.601 1769 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.lang.Long -> org.hibernate.type.LongType@7bc6d27a
+07 Jan 2018 08:48:38.602 1770 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration float -> org.hibernate.type.FloatType@58ec7116
+07 Jan 2018 08:48:38.603 1771 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration float -> org.hibernate.type.FloatType@58ec7116
+07 Jan 2018 08:48:38.603 1771 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@58ec7116
+07 Jan 2018 08:48:38.604 1772 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration double -> org.hibernate.type.DoubleType@1aac188d
+07 Jan 2018 08:48:38.604 1772 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration double -> org.hibernate.type.DoubleType@1aac188d
+07 Jan 2018 08:48:38.605 1773 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1aac188d
+07 Jan 2018 08:48:38.606 1774 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@68217d41
+07 Jan 2018 08:48:38.606 1774 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@68217d41
+07 Jan 2018 08:48:38.607 1775 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@62891fc8
+07 Jan 2018 08:48:38.607 1775 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@62891fc8
+07 Jan 2018 08:48:38.608 1776 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration string -> org.hibernate.type.StringType@55e3d6c3
+07 Jan 2018 08:48:38.608 1776 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.lang.String -> org.hibernate.type.StringType@55e3d6c3
+07 Jan 2018 08:48:38.609 1777 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3d6a6bee
+07 Jan 2018 08:48:38.610 1778 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3cff0139
+07 Jan 2018 08:48:38.611 1779 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration url -> org.hibernate.type.UrlType@3effd4f3
+07 Jan 2018 08:48:38.611 1779 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.net.URL -> org.hibernate.type.UrlType@3effd4f3
+07 Jan 2018 08:48:38.612 1780 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration date -> org.hibernate.type.DateType@86733
+07 Jan 2018 08:48:38.613 1781 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.sql.Date -> org.hibernate.type.DateType@86733
+07 Jan 2018 08:48:38.614 1782 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration time -> org.hibernate.type.TimeType@624a24f6
+07 Jan 2018 08:48:38.614 1782 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@624a24f6
+07 Jan 2018 08:48:38.615 1783 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration timestamp -> org.hibernate.type.TimestampType@49c8f6e8
+07 Jan 2018 08:48:38.615 1783 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@49c8f6e8
+07 Jan 2018 08:48:38.616 1784 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@49c8f6e8
+07 Jan 2018 08:48:38.616 1784 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@221dad51
+07 Jan 2018 08:48:38.617 1785 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration calendar -> org.hibernate.type.CalendarType@240f6c41
+07 Jan 2018 08:48:38.618 1786 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@240f6c41
+07 Jan 2018 08:48:38.618 1786 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@240f6c41
+07 Jan 2018 08:48:38.619 1787 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3bdb2c78
+07 Jan 2018 08:48:38.619 1787 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration locale -> org.hibernate.type.LocaleType@5e746d37
+07 Jan 2018 08:48:38.620 1788 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5e746d37
+07 Jan 2018 08:48:38.620 1788 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration currency -> org.hibernate.type.CurrencyType@112d1c8e
+07 Jan 2018 08:48:38.620 1788 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@112d1c8e
+07 Jan 2018 08:48:38.621 1789 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration timezone -> org.hibernate.type.TimeZoneType@4da9f723
+07 Jan 2018 08:48:38.621 1789 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4da9f723
+07 Jan 2018 08:48:38.622 1790 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration class -> org.hibernate.type.ClassType@4a23350
+07 Jan 2018 08:48:38.622 1790 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@4a23350
+07 Jan 2018 08:48:38.623 1791 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@67d86804
+07 Jan 2018 08:48:38.623 1791 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@67d86804
+07 Jan 2018 08:48:38.624 1792 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4b1a43d8
+07 Jan 2018 08:48:38.625 1793 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration binary -> org.hibernate.type.BinaryType@2ff15f8c
+07 Jan 2018 08:48:38.625 1793 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration byte[] -> org.hibernate.type.BinaryType@2ff15f8c
+07 Jan 2018 08:48:38.625 1793 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration [B -> org.hibernate.type.BinaryType@2ff15f8c
+07 Jan 2018 08:48:38.626 1794 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1460c81d
+07 Jan 2018 08:48:38.626 1794 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1460c81d
+07 Jan 2018 08:48:38.626 1794 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1460c81d
+07 Jan 2018 08:48:38.627 1795 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration row_version -> org.hibernate.type.RowVersionType@2cc04358
+07 Jan 2018 08:48:38.628 1796 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration image -> org.hibernate.type.ImageType@d48673
+07 Jan 2018 08:48:38.629 1797 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration characters -> org.hibernate.type.CharArrayType@42d73c61
+07 Jan 2018 08:48:38.629 1797 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration char[] -> org.hibernate.type.CharArrayType@42d73c61
+07 Jan 2018 08:48:38.629 1797 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration [C -> org.hibernate.type.CharArrayType@42d73c61
+07 Jan 2018 08:48:38.630 1798 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@25e49cb2
+07 Jan 2018 08:48:38.630 1798 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@25e49cb2
+07 Jan 2018 08:48:38.630 1798 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@25e49cb2
+07 Jan 2018 08:48:38.631 1799 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration text -> org.hibernate.type.TextType@554cd74a
+07 Jan 2018 08:48:38.631 1799 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration ntext -> org.hibernate.type.NTextType@5a82ebf8
+07 Jan 2018 08:48:38.634 1802 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration blob -> org.hibernate.type.BlobType@2f651f93
+07 Jan 2018 08:48:38.634 1802 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2f651f93
+07 Jan 2018 08:48:38.634 1802 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@747d1932
+07 Jan 2018 08:48:38.637 1805 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration clob -> org.hibernate.type.ClobType@61d34b4
+07 Jan 2018 08:48:38.637 1805 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@61d34b4
+07 Jan 2018 08:48:38.639 1807 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration nclob -> org.hibernate.type.NClobType@3c782d8e
+07 Jan 2018 08:48:38.639 1807 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3c782d8e
+07 Jan 2018 08:48:38.640 1808 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@58b71ceb
+07 Jan 2018 08:48:38.640 1808 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@b0e5507
+07 Jan 2018 08:48:38.641 1809 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration serializable -> org.hibernate.type.SerializableType@8a98f38
+07 Jan 2018 08:48:38.643 1811 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration object -> org.hibernate.type.ObjectType@c6b2dd9
+07 Jan 2018 08:48:38.643 1811 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@c6b2dd9
+07 Jan 2018 08:48:38.644 1812 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@6a48a7f3
+07 Jan 2018 08:48:38.644 1812 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@3f985a86
+07 Jan 2018 08:48:38.644 1812 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@57a2ed35
+07 Jan 2018 08:48:38.644 1812 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@12ffd1de
+07 Jan 2018 08:48:38.644 1812 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3d278b4d
+07 Jan 2018 08:48:38.645 1813 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4096aa05
+07 Jan 2018 08:48:38.645 1813 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@9d3c67
+07 Jan 2018 08:48:38.645 1813 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6c806c8b
+07 Jan 2018 08:48:38.654 1822 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator 72 : Database ->
+       name : PostgreSQL
+    version : 9.6.6
+      major : 9
+      minor : 6
+07 Jan 2018 08:48:38.655 1823 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator 83 : Driver ->
+       name : PostgreSQL Native Driver
+    version : PostgreSQL 9.4.1212.jre7
+      major : 9
+      minor : 4
+07 Jan 2018 08:48:38.655 1823 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator 389 : JDBC version : 4.0
+07 Jan 2018 08:48:38.665 1833 [main] INFO  org.hibernate.dialect.Dialect 156 : HHH000400: Using dialect: org.hibernate.spatial.dialect.postgis.PostgisDialect
+07 Jan 2018 08:48:38.888 2056 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder 111 : JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+07 Jan 2018 08:48:38.904 2072 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl 124 : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+07 Jan 2018 08:48:38.906 2074 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@4c86da0c
+07 Jan 2018 08:48:38.906 2074 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@4c86da0c
+07 Jan 2018 08:48:38.906 2074 [main] INFO  o.hibernate.type.BasicTypeRegistry 139 : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@67d86804
+07 Jan 2018 08:48:38.911 2079 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration org.geolatte.geom.Geometry -> org.hibernate.spatial.GeolatteGeometryType@fe7b6b0
+07 Jan 2018 08:48:38.911 2079 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration org.geolatte.geom.Point -> org.hibernate.spatial.GeolatteGeometryType@fe7b6b0
+07 Jan 2018 08:48:38.911 2079 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration org.geolatte.geom.Polygon -> org.hibernate.spatial.GeolatteGeometryType@fe7b6b0
+07 Jan 2018 08:48:38.912 2080 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration org.geolatte.geom.MultiPolygon -> org.hibernate.spatial.GeolatteGeometryType@fe7b6b0
+07 Jan 2018 08:48:38.912 2080 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration org.geolatte.geom.LineString -> org.hibernate.spatial.GeolatteGeometryType@fe7b6b0
+07 Jan 2018 08:48:38.912 2080 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration org.geolatte.geom.MultiLineString -> org.hibernate.spatial.GeolatteGeometryType@fe7b6b0
+07 Jan 2018 08:48:38.912 2080 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration org.geolatte.geom.MultiPoint -> org.hibernate.spatial.GeolatteGeometryType@fe7b6b0
+07 Jan 2018 08:48:38.912 2080 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration org.geolatte.geom.GeometryCollection -> org.hibernate.spatial.GeolatteGeometryType@fe7b6b0
+07 Jan 2018 08:48:38.913 2081 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration geolatte_geometry -> org.hibernate.spatial.GeolatteGeometryType@fe7b6b0
+07 Jan 2018 08:48:38.916 2084 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration com.vividsolutions.jts.geom.Geometry -> org.hibernate.spatial.JTSGeometryType@6a87026
+07 Jan 2018 08:48:38.917 2085 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration com.vividsolutions.jts.geom.Point -> org.hibernate.spatial.JTSGeometryType@6a87026
+07 Jan 2018 08:48:38.917 2085 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration com.vividsolutions.jts.geom.Polygon -> org.hibernate.spatial.JTSGeometryType@6a87026
+07 Jan 2018 08:48:38.917 2085 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration com.vividsolutions.jts.geom.MultiPolygon -> org.hibernate.spatial.JTSGeometryType@6a87026
+07 Jan 2018 08:48:38.917 2085 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration com.vividsolutions.jts.geom.LineString -> org.hibernate.spatial.JTSGeometryType@6a87026
+07 Jan 2018 08:48:38.917 2085 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration com.vividsolutions.jts.geom.MultiLineString -> org.hibernate.spatial.JTSGeometryType@6a87026
+07 Jan 2018 08:48:38.918 2086 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration com.vividsolutions.jts.geom.MultiPoint -> org.hibernate.spatial.JTSGeometryType@6a87026
+07 Jan 2018 08:48:38.918 2086 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration com.vividsolutions.jts.geom.GeometryCollection -> org.hibernate.spatial.JTSGeometryType@6a87026
+07 Jan 2018 08:48:38.918 2086 [main] DEBUG o.hibernate.type.BasicTypeRegistry 136 : Adding type registration jts_geometry -> org.hibernate.spatial.JTSGeometryType@6a87026
+07 Jan 2018 08:48:38.929 2097 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+07 Jan 2018 08:48:38.930 2098 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+07 Jan 2018 08:48:38.931 2099 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+07 Jan 2018 08:48:38.931 2099 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+07 Jan 2018 08:48:38.931 2099 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+07 Jan 2018 08:48:38.932 2100 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+07 Jan 2018 08:48:38.932 2100 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+07 Jan 2018 08:48:38.933 2101 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+07 Jan 2018 08:48:38.934 2102 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+07 Jan 2018 08:48:38.935 2103 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+07 Jan 2018 08:48:38.935 2103 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+07 Jan 2018 08:48:38.935 2103 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+07 Jan 2018 08:48:38.935 2103 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+07 Jan 2018 08:48:38.936 2104 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+07 Jan 2018 08:48:38.937 2105 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 81 : Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+07 Jan 2018 08:48:38.937 2105 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory 84 :     - overriding [org.hibernate.id.enhanced.SequenceStyleGenerator]
+07 Jan 2018 08:48:38.955 2123 [main] DEBUG o.h.boot.model.relational.Namespace 47 : Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+07 Jan 2018 08:48:38.970 2138 [main] DEBUG org.hibernate.cfg.AnnotationBinder 509 : Binding entity from annotated class: net.ljcomputing.geocoder.entity.GeocoderResults
+07 Jan 2018 08:48:38.982 2150 [main] DEBUG org.hibernate.cfg.Ejb3Column 213 : Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+07 Jan 2018 08:48:38.986 2154 [main] DEBUG o.h.cfg.annotations.EntityBinder 409 : Import with entity name GeocoderResults
+07 Jan 2018 08:48:38.991 2159 [main] DEBUG o.h.cfg.annotations.EntityBinder 685 : Bind entity net.ljcomputing.geocoder.entity.GeocoderResults on table geocoder_results
+07 Jan 2018 08:48:39.005 2173 [main] DEBUG org.hibernate.cfg.Ejb3Column 213 : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(geocoder_results), mappingColumn=id, insertable=true, updatable=true, unique=false}
+07 Jan 2018 08:48:39.007 2175 [main] DEBUG o.h.cfg.annotations.PropertyBinder 169 : MetadataSourceProcessor property id with lazy=false
+07 Jan 2018 08:48:39.008 2176 [main] DEBUG o.h.cfg.AbstractPropertyHolder 90 : Attempting to locate auto-apply AttributeConverter for property [net.ljcomputing.geocoder.entity.GeocoderResults:id]
+07 Jan 2018 08:48:39.009 2177 [main] DEBUG o.h.c.annotations.SimpleValueBinder 395 : building SimpleValue for id
+07 Jan 2018 08:48:39.011 2179 [main] DEBUG o.h.cfg.annotations.PropertyBinder 260 : Building property id
+07 Jan 2018 08:48:39.013 2181 [main] DEBUG org.hibernate.cfg.Ejb3Column 213 : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(geocoder_results), mappingColumn=address, insertable=true, updatable=true, unique=false}
+07 Jan 2018 08:48:39.013 2181 [main] DEBUG o.h.cfg.annotations.PropertyBinder 169 : MetadataSourceProcessor property address with lazy=false
+07 Jan 2018 08:48:39.013 2181 [main] DEBUG o.h.cfg.AbstractPropertyHolder 90 : Attempting to locate auto-apply AttributeConverter for property [net.ljcomputing.geocoder.entity.GeocoderResults:address]
+07 Jan 2018 08:48:39.014 2182 [main] DEBUG o.h.c.annotations.SimpleValueBinder 395 : building SimpleValue for address
+07 Jan 2018 08:48:39.014 2182 [main] DEBUG o.h.cfg.annotations.PropertyBinder 260 : Building property address
+07 Jan 2018 08:48:39.014 2182 [main] DEBUG org.hibernate.cfg.Ejb3Column 213 : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(geocoder_results), mappingColumn=geom, insertable=true, updatable=true, unique=false}
+07 Jan 2018 08:48:39.014 2182 [main] DEBUG o.h.cfg.annotations.PropertyBinder 169 : MetadataSourceProcessor property geom with lazy=false
+07 Jan 2018 08:48:39.015 2183 [main] DEBUG o.h.cfg.AbstractPropertyHolder 90 : Attempting to locate auto-apply AttributeConverter for property [net.ljcomputing.geocoder.entity.GeocoderResults:geom]
+07 Jan 2018 08:48:39.015 2183 [main] DEBUG o.h.c.annotations.SimpleValueBinder 395 : building SimpleValue for geom
+07 Jan 2018 08:48:39.015 2183 [main] DEBUG o.h.cfg.annotations.PropertyBinder 260 : Building property geom
+07 Jan 2018 08:48:39.015 2183 [main] DEBUG org.hibernate.cfg.Ejb3Column 213 : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(geocoder_results), mappingColumn=latitude, insertable=true, updatable=true, unique=false}
+07 Jan 2018 08:48:39.015 2183 [main] DEBUG o.h.cfg.annotations.PropertyBinder 169 : MetadataSourceProcessor property latitude with lazy=false
+07 Jan 2018 08:48:39.016 2184 [main] DEBUG o.h.cfg.AbstractPropertyHolder 90 : Attempting to locate auto-apply AttributeConverter for property [net.ljcomputing.geocoder.entity.GeocoderResults:latitude]
+07 Jan 2018 08:48:39.016 2184 [main] DEBUG o.h.c.annotations.SimpleValueBinder 395 : building SimpleValue for latitude
+07 Jan 2018 08:48:39.016 2184 [main] DEBUG o.h.cfg.annotations.PropertyBinder 260 : Building property latitude
+07 Jan 2018 08:48:39.016 2184 [main] DEBUG org.hibernate.cfg.Ejb3Column 213 : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(geocoder_results), mappingColumn=longitude, insertable=true, updatable=true, unique=false}
+07 Jan 2018 08:48:39.017 2185 [main] DEBUG o.h.cfg.annotations.PropertyBinder 169 : MetadataSourceProcessor property longitude with lazy=false
+07 Jan 2018 08:48:39.017 2185 [main] DEBUG o.h.cfg.AbstractPropertyHolder 90 : Attempting to locate auto-apply AttributeConverter for property [net.ljcomputing.geocoder.entity.GeocoderResults:longitude]
+07 Jan 2018 08:48:39.017 2185 [main] DEBUG o.h.c.annotations.SimpleValueBinder 395 : building SimpleValue for longitude
+07 Jan 2018 08:48:39.017 2185 [main] DEBUG o.h.cfg.annotations.PropertyBinder 260 : Building property longitude
+07 Jan 2018 08:48:39.018 2186 [main] DEBUG org.hibernate.cfg.Ejb3Column 213 : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(geocoder_results), mappingColumn=rating, insertable=true, updatable=true, unique=false}
+07 Jan 2018 08:48:39.018 2186 [main] DEBUG o.h.cfg.annotations.PropertyBinder 169 : MetadataSourceProcessor property rating with lazy=false
+07 Jan 2018 08:48:39.018 2186 [main] DEBUG o.h.cfg.AbstractPropertyHolder 90 : Attempting to locate auto-apply AttributeConverter for property [net.ljcomputing.geocoder.entity.GeocoderResults:rating]
+07 Jan 2018 08:48:39.018 2186 [main] DEBUG o.h.c.annotations.SimpleValueBinder 395 : building SimpleValue for rating
+07 Jan 2018 08:48:39.018 2186 [main] DEBUG o.h.cfg.annotations.PropertyBinder 260 : Building property rating
+07 Jan 2018 08:48:39.019 2187 [main] DEBUG o.h.c.annotations.SimpleValueBinder 437 : Starting fillSimpleValue for id
+07 Jan 2018 08:48:39.020 2188 [main] DEBUG o.h.c.annotations.SimpleValueBinder 437 : Starting fillSimpleValue for address
+07 Jan 2018 08:48:39.020 2188 [main] DEBUG o.h.c.annotations.SimpleValueBinder 437 : Starting fillSimpleValue for geom
+07 Jan 2018 08:48:39.020 2188 [main] DEBUG o.h.c.annotations.SimpleValueBinder 437 : Starting fillSimpleValue for latitude
+07 Jan 2018 08:48:39.020 2188 [main] DEBUG o.h.c.annotations.SimpleValueBinder 437 : Starting fillSimpleValue for longitude
+07 Jan 2018 08:48:39.021 2189 [main] DEBUG o.h.c.annotations.SimpleValueBinder 437 : Starting fillSimpleValue for rating
+07 Jan 2018 08:48:39.022 2190 [main] DEBUG org.hibernate.mapping.PrimaryKey 35 : Forcing column [id] to be non-null as it is part of the primary key for table [geocoder_results]
+07 Jan 2018 08:48:39.041 2209 [main] DEBUG o.h.internal.SessionFactoryImpl 212 : Building session factory
+07 Jan 2018 08:48:39.042 2210 [main] DEBUG org.hibernate.cfg.Settings 69 : SessionFactory name : null
+07 Jan 2018 08:48:39.042 2210 [main] DEBUG org.hibernate.cfg.Settings 70 : Automatic flush during beforeCompletion(): disabled
+07 Jan 2018 08:48:39.042 2210 [main] DEBUG org.hibernate.cfg.Settings 71 : Automatic session close at end of transaction: disabled
+07 Jan 2018 08:48:39.042 2210 [main] DEBUG org.hibernate.cfg.Settings 73 : Statistics: disabled
+07 Jan 2018 08:48:39.043 2211 [main] DEBUG org.hibernate.cfg.Settings 75 : Deleted entity synthetic identifier rollback: disabled
+07 Jan 2018 08:48:39.043 2211 [main] DEBUG org.hibernate.cfg.Settings 76 : Default entity-mode: pojo
+07 Jan 2018 08:48:39.043 2211 [main] DEBUG org.hibernate.cfg.Settings 77 : Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+07 Jan 2018 08:48:39.043 2211 [main] DEBUG org.hibernate.cfg.Settings 78 : Allow initialization of lazy state outside session : disabled
+07 Jan 2018 08:48:39.043 2211 [main] DEBUG org.hibernate.cfg.Settings 80 : Using BatchFetchStyle : LEGACY
+07 Jan 2018 08:48:39.043 2211 [main] DEBUG org.hibernate.cfg.Settings 81 : Default batch fetch size: -1
+07 Jan 2018 08:48:39.044 2212 [main] DEBUG org.hibernate.cfg.Settings 82 : Maximum outer join fetch depth: null
+07 Jan 2018 08:48:39.044 2212 [main] DEBUG org.hibernate.cfg.Settings 83 : Default null ordering: NONE
+07 Jan 2018 08:48:39.044 2212 [main] DEBUG org.hibernate.cfg.Settings 84 : Order SQL updates by primary key: disabled
+07 Jan 2018 08:48:39.044 2212 [main] DEBUG org.hibernate.cfg.Settings 85 : Order SQL inserts for batching: disabled
+07 Jan 2018 08:48:39.044 2212 [main] DEBUG org.hibernate.cfg.Settings 87 : multi-tenancy strategy : NONE
+07 Jan 2018 08:48:39.044 2212 [main] DEBUG org.hibernate.cfg.Settings 89 : JTA Track by Thread: enabled
+07 Jan 2018 08:48:39.044 2212 [main] DEBUG org.hibernate.cfg.Settings 91 : Query language substitutions: {}
+07 Jan 2018 08:48:39.045 2213 [main] DEBUG org.hibernate.cfg.Settings 92 : JPA query language strict compliance: disabled
+07 Jan 2018 08:48:39.045 2213 [main] DEBUG org.hibernate.cfg.Settings 93 : Named query checking : enabled
+07 Jan 2018 08:48:39.045 2213 [main] DEBUG org.hibernate.cfg.Settings 95 : Second-level cache: enabled
+07 Jan 2018 08:48:39.045 2213 [main] DEBUG org.hibernate.cfg.Settings 96 : Second-level query cache: disabled
+07 Jan 2018 08:48:39.045 2213 [main] DEBUG org.hibernate.cfg.Settings 97 : Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@2e32fc22
+07 Jan 2018 08:48:39.045 2213 [main] DEBUG org.hibernate.cfg.Settings 98 : Second-level cache region prefix: null
+07 Jan 2018 08:48:39.045 2213 [main] DEBUG org.hibernate.cfg.Settings 99 : Optimize second-level cache for minimal puts: disabled
+07 Jan 2018 08:48:39.046 2214 [main] DEBUG org.hibernate.cfg.Settings 100 : Structured second-level cache entries: disabled
+07 Jan 2018 08:48:39.046 2214 [main] DEBUG org.hibernate.cfg.Settings 101 : Second-level cache direct-reference entries: disabled
+07 Jan 2018 08:48:39.046 2214 [main] DEBUG org.hibernate.cfg.Settings 102 : Automatic eviction of collection cache: disabled
+07 Jan 2018 08:48:39.046 2214 [main] DEBUG org.hibernate.cfg.Settings 104 : JDBC batch size: 15
+07 Jan 2018 08:48:39.046 2214 [main] DEBUG org.hibernate.cfg.Settings 105 : JDBC batch updates for versioned data: enabled
+07 Jan 2018 08:48:39.046 2214 [main] DEBUG org.hibernate.cfg.Settings 106 : Scrollable result sets: enabled
+07 Jan 2018 08:48:39.046 2214 [main] DEBUG org.hibernate.cfg.Settings 107 : Wrap result sets: disabled
+07 Jan 2018 08:48:39.047 2215 [main] DEBUG org.hibernate.cfg.Settings 108 : JDBC3 getGeneratedKeys(): enabled
+07 Jan 2018 08:48:39.047 2215 [main] DEBUG org.hibernate.cfg.Settings 109 : JDBC result set fetch size: null
+07 Jan 2018 08:48:39.047 2215 [main] DEBUG org.hibernate.cfg.Settings 110 : Connection release mode: ON_CLOSE
+07 Jan 2018 08:48:39.047 2215 [main] DEBUG org.hibernate.cfg.Settings 111 : Generate SQL with comments: disabled
+07 Jan 2018 08:48:39.074 2242 [main] DEBUG o.h.internal.SessionFactoryImpl 877 : Returning a Reference to the SessionFactory
+07 Jan 2018 08:48:39.075 2243 [main] DEBUG o.h.internal.SessionFactoryImpl 257 : Session factory constructed with filter configurations : {}
+07 Jan 2018 08:48:39.076 2244 [main] DEBUG o.h.internal.SessionFactoryImpl 258 : Instantiating session factory with properties: {java.vendor=Oracle Corporation, localRepository=/home/jim/.m2/repository, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, os.name=Linux, sun.boot.class.path=/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes, sun.desktop=gnome, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_151-b12, user.name=jim, javax.persistence.validation.mode=AUTO, user.language=en, sun.boot.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64, PID=18268, java.version=1.8.0_151, user.timezone=America/New_York, sun.arch.data.model=64, java.endorsed.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=US, java.home=/usr/lib/jvm/java-8-oracle/jre, java.vm.info=mixed mode, os.version=4.10.0-42-generic, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@13c8ac77, hibernate.connection.datasource=org.apache.tomcat.jdbc.pool.DataSource@77128dab{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.postgresql.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:postgresql://127.0.0.1:5432/tigerdb; username=apartments; validationQuery=SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=3000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; useStatementFacade=true; }, surefire.real.class.path=/home/jim/git/net.ljcomputing.geocoder.git/geocoder/target/surefire/surefirebooter6807198856615250081.jar, path.separator=:, java.vm.version=25.151-b12, org.jboss.logging.provider=slf4j, hibernate.id.new_generator_mappings=false, java.awt.printerjob=sun.print.PSPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, user.home=/home/jim, java.specification.vendor=Oracle Corporation, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, hibernate.hbm2ddl.auto=update, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, spring.beaninfo.ignore=true, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.spatial.dialect.postgis.PostgisDialect, hibernate.ejb.persistenceUnitName=default, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=/home/jim/git/net.ljcomputing.geocoder.git/geocoder/target/surefire/surefirebooter6807198856615250081.jar /home/jim/git/net.ljcomputing.geocoder.git/geocoder/target/surefire/surefire4768903927660153424tmp /home/jim/git/net.ljcomputing.geocoder.git/geocoder/target/surefire/surefire_07937671703883995169tmp, java.class.path=/home/jim/git/net.ljcomputing.geocoder.git/geocoder/target/test-classes:/home/jim/git/net.ljcomputing.geocoder.git/geocoder/target/classes:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter-aop/1.5.9.RELEASE/spring-boot-starter-aop-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.9.RELEASE/spring-boot-starter-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.9.RELEASE/spring-boot-starter-logging-1.5.9.RELEASE.jar:/home/jim/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar:/home/jim/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar:/home/jim/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar:/home/jim/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.jar:/home/jim/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/jim/.m2/repository/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/1.5.9.RELEASE/spring-boot-starter-data-jpa-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/1.5.9.RELEASE/spring-boot-starter-jdbc-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/apache/tomcat/tomcat-jdbc/8.5.23/tomcat-jdbc-8.5.23.jar:/home/jim/.m2/repository/org/apache/tomcat/tomcat-juli/8.5.23/tomcat-juli-8.5.23.jar:/home/jim/.m2/repository/org/springframework/spring-jdbc/4.3.13.RELEASE/spring-jdbc-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.jar:/home/jim/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/jim/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/jim/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/jim/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar:/home/jim/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/jim/.m2/repository/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.jar:/home/jim/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/home/jim/.m2/repository/org/springframework/data/spring-data-jpa/1.11.9.RELEASE/spring-data-jpa-1.11.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/data/spring-data-commons/1.13.9.RELEASE/spring-data-commons-1.13.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/spring-orm/4.3.13.RELEASE/spring-orm-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/springframework/spring-expression/4.3.13.RELEASE/spring-expression-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/springframework/spring-tx/4.3.13.RELEASE/spring-tx-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/jim/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/home/jim/.m2/repository/org/springframework/spring-aspects/4.3.13.RELEASE/spring-aspects-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter-validation/1.5.9.RELEASE/spring-boot-starter-validation-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.23/tomcat-embed-el-8.5.23.jar:/home/jim/.m2/repository/org/hibernate/hibernate-validator/5.3.6.Final/hibernate-validator-5.3.6.Final.jar:/home/jim/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/home/jim/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-devtools/1.5.9.RELEASE/spring-boot-devtools-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.9.RELEASE/spring-boot-starter-test-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-test/1.5.9.RELEASE/spring-boot-test-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.9.RELEASE/spring-boot-test-autoconfigure-1.5.9.RELEASE.jar:/home/jim/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar:/home/jim/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar:/home/jim/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/home/jim/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/jim/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/jim/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar:/home/jim/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar:/home/jim/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/jim/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/jim/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/jim/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar:/home/jim/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/jim/.m2/repository/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/json/json/20140107/json-20140107.jar:/home/jim/.m2/repository/org/postgresql/postgresql/9.4.1212.jre7/postgresql-9.4.1212.jre7.jar:/home/jim/.m2/repository/jgridshift/jgridshift/1.0/jgridshift-1.0.jar:/home/jim/.m2/repository/org/hibernate/hibernate-spatial/5.2.12.Final/hibernate-spatial-5.2.12.Final.jar:/home/jim/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar:/home/jim/.m2/repository/org/geolatte/geolatte-geom/1.2.0/geolatte-geom-1.2.0.jar:/home/jim/.m2/repository/com/vividsolutions/jts/1.13/jts-1.13.jar:/home/jim/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/jim/.m2/repository/org/geotools/gt-main/18.1/gt-main-18.1.jar:/home/jim/.m2/repository/org/geotools/gt-api/18.1/gt-api-18.1.jar:/home/jim/.m2/repository/com/vividsolutions/jts-core/1.14.0/jts-core-1.14.0.jar:/home/jim/.m2/repository/org/jdom/jdom/1.1.3/jdom-1.1.3.jar:/home/jim/.m2/repository/javax/media/jai_core/1.1.3/jai_core-1.1.3.jar:/home/jim/.m2/repository/org/geotools/gt-epsg-hsql/18.1/gt-epsg-hsql-18.1.jar:/home/jim/.m2/repository/org/hsqldb/hsqldb/2.3.5/hsqldb-2.3.5.jar:/home/jim/.m2/repository/org/geotools/gt-referencing/18.1/gt-referencing-18.1.jar:/home/jim/.m2/repository/com/googlecode/efficient-java-matrix-library/core/0.26/core-0.26.jar:/home/jim/.m2/repository/commons-pool/commons-pool/1.6/commons-pool-1.6.jar:/home/jim/.m2/repository/org/geotools/gt-metadata/18.1/gt-metadata-18.1.jar:/home/jim/.m2/repository/org/geotools/gt-opengis/18.1/gt-opengis-18.1.jar:/home/jim/.m2/repository/net/java/dev/jsr-275/jsr-275/1.0-beta-2/jsr-275-1.0-beta-2.jar:/home/jim/.m2/repository/net/sf/geographiclib/GeographicLib-Java/1.44/GeographicLib-Java-1.44.jar:/home/jim/.m2/repository/org/geotools/gt-geojson/18.1/gt-geojson-18.1.jar:/home/jim/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/home/jim/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, java.awt.headless=true, surefire.test.class.path=/home/jim/git/net.ljcomputing.geocoder.git/geocoder/target/test-classes:/home/jim/git/net.ljcomputing.geocoder.git/geocoder/target/classes:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter-aop/1.5.9.RELEASE/spring-boot-starter-aop-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.9.RELEASE/spring-boot-starter-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.9.RELEASE/spring-boot-starter-logging-1.5.9.RELEASE.jar:/home/jim/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar:/home/jim/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar:/home/jim/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar:/home/jim/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.jar:/home/jim/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/jim/.m2/repository/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/1.5.9.RELEASE/spring-boot-starter-data-jpa-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/1.5.9.RELEASE/spring-boot-starter-jdbc-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/apache/tomcat/tomcat-jdbc/8.5.23/tomcat-jdbc-8.5.23.jar:/home/jim/.m2/repository/org/apache/tomcat/tomcat-juli/8.5.23/tomcat-juli-8.5.23.jar:/home/jim/.m2/repository/org/springframework/spring-jdbc/4.3.13.RELEASE/spring-jdbc-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.jar:/home/jim/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/jim/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/jim/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/jim/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar:/home/jim/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/jim/.m2/repository/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.jar:/home/jim/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/home/jim/.m2/repository/org/springframework/data/spring-data-jpa/1.11.9.RELEASE/spring-data-jpa-1.11.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/data/spring-data-commons/1.13.9.RELEASE/spring-data-commons-1.13.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/spring-orm/4.3.13.RELEASE/spring-orm-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/springframework/spring-expression/4.3.13.RELEASE/spring-expression-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/springframework/spring-tx/4.3.13.RELEASE/spring-tx-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/jim/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/home/jim/.m2/repository/org/springframework/spring-aspects/4.3.13.RELEASE/spring-aspects-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter-validation/1.5.9.RELEASE/spring-boot-starter-validation-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.23/tomcat-embed-el-8.5.23.jar:/home/jim/.m2/repository/org/hibernate/hibernate-validator/5.3.6.Final/hibernate-validator-5.3.6.Final.jar:/home/jim/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/home/jim/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-devtools/1.5.9.RELEASE/spring-boot-devtools-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.5.9.RELEASE/spring-boot-starter-test-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-test/1.5.9.RELEASE/spring-boot-test-1.5.9.RELEASE.jar:/home/jim/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.5.9.RELEASE/spring-boot-test-autoconfigure-1.5.9.RELEASE.jar:/home/jim/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar:/home/jim/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar:/home/jim/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/home/jim/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/jim/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/jim/.m2/repository/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar:/home/jim/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar:/home/jim/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/jim/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/jim/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/jim/.m2/repository/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar:/home/jim/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/jim/.m2/repository/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE.jar:/home/jim/.m2/repository/org/json/json/20140107/json-20140107.jar:/home/jim/.m2/repository/org/postgresql/postgresql/9.4.1212.jre7/postgresql-9.4.1212.jre7.jar:/home/jim/.m2/repository/jgridshift/jgridshift/1.0/jgridshift-1.0.jar:/home/jim/.m2/repository/org/hibernate/hibernate-spatial/5.2.12.Final/hibernate-spatial-5.2.12.Final.jar:/home/jim/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar:/home/jim/.m2/repository/org/geolatte/geolatte-geom/1.2.0/geolatte-geom-1.2.0.jar:/home/jim/.m2/repository/com/vividsolutions/jts/1.13/jts-1.13.jar:/home/jim/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/jim/.m2/repository/org/geotools/gt-main/18.1/gt-main-18.1.jar:/home/jim/.m2/repository/org/geotools/gt-api/18.1/gt-api-18.1.jar:/home/jim/.m2/repository/com/vividsolutions/jts-core/1.14.0/jts-core-1.14.0.jar:/home/jim/.m2/repository/org/jdom/jdom/1.1.3/jdom-1.1.3.jar:/home/jim/.m2/repository/javax/media/jai_core/1.1.3/jai_core-1.1.3.jar:/home/jim/.m2/repository/org/geotools/gt-epsg-hsql/18.1/gt-epsg-hsql-18.1.jar:/home/jim/.m2/repository/org/hsqldb/hsqldb/2.3.5/hsqldb-2.3.5.jar:/home/jim/.m2/repository/org/geotools/gt-referencing/18.1/gt-referencing-18.1.jar:/home/jim/.m2/repository/com/googlecode/efficient-java-matrix-library/core/0.26/core-0.26.jar:/home/jim/.m2/repository/commons-pool/commons-pool/1.6/commons-pool-1.6.jar:/home/jim/.m2/repository/org/geotools/gt-metadata/18.1/gt-metadata-18.1.jar:/home/jim/.m2/repository/org/geotools/gt-opengis/18.1/gt-opengis-18.1.jar:/home/jim/.m2/repository/net/java/dev/jsr-275/jsr-275/1.0-beta-2/jsr-275-1.0-beta-2.jar:/home/jim/.m2/repository/net/sf/geographiclib/GeographicLib-Java/1.44/GeographicLib-Java-1.44.jar:/home/jim/.m2/repository/org/geotools/gt-geojson/18.1/gt-geojson-18.1.jar:/home/jim/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/home/jim/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, javax.persistence.sharedCache.mode=UNSPECIFIED, os.arch=amd64, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext, user.dir=/home/jim/git/net.ljcomputing.geocoder.git/geocoder, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@4bdf, basedir=/home/jim/git/net.ljcomputing.geocoder.git/geocoder, file.encoding=UTF-8, java.specification.version=1.8, hibernate.show_sql=true}
+07 Jan 2018 08:48:39.087 2255 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver 103 : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+07 Jan 2018 08:48:39.088 2256 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver 114 : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+07 Jan 2018 08:48:39.088 2256 [main] DEBUG o.h.v.i.xml.ValidationXmlParser 99 : Trying to load META-INF/validation.xml for XML based Validator configuration.
+07 Jan 2018 08:48:39.088 2256 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper 54 : Trying to load META-INF/validation.xml via TCCL
+07 Jan 2018 08:48:39.089 2257 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper 60 : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+07 Jan 2018 08:48:39.089 2257 [main] DEBUG o.h.v.i.xml.ValidationXmlParser 106 : No META-INF/validation.xml found. Using annotation based configuration only.
+07 Jan 2018 08:48:39.092 2260 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl 55 : Not known whether passed class name [net.ljcomputing.geocoder.entity.GeocoderResults] is safe
+07 Jan 2018 08:48:39.092 2260 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl 57 : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : net.ljcomputing.geocoder.entity.GeocoderResults
+07 Jan 2018 08:48:39.097 2265 [main] DEBUG o.h.secure.spi.JaccIntegrator 80 : Skipping JACC integration as it was not enabled
+07 Jan 2018 08:48:39.101 2269 [main] DEBUG o.h.engine.spi.CascadeStyles 268 : External cascade style regsitration [persist : STYLE_PERSIST_SKIPLAZY] overrode base registration [STYLE_PERSIST]
+07 Jan 2018 08:48:39.129 2297 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl 55 : Not known whether passed class name [net.ljcomputing.geocoder.entity.GeocoderResults] is safe
+07 Jan 2018 08:48:39.130 2298 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl 57 : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : net.ljcomputing.geocoder.entity.GeocoderResults
+07 Jan 2018 08:48:39.136 2304 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl 55 : Not known whether passed class name [net.ljcomputing.geocoder.entity.GeocoderResults] is safe
+07 Jan 2018 08:48:39.137 2305 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl 57 : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : net.ljcomputing.geocoder.entity.GeocoderResults
+07 Jan 2018 08:48:39.165 2333 [main] DEBUG o.h.p.e.AbstractEntityPersister 3544 : Static SQL for entity: net.ljcomputing.geocoder.entity.GeocoderResults
+07 Jan 2018 08:48:39.165 2333 [main] DEBUG o.h.p.e.AbstractEntityPersister 3549 :  Version select: select id from geocoder_results where id =?
+07 Jan 2018 08:48:39.165 2333 [main] DEBUG o.h.p.e.AbstractEntityPersister 3552 :  Snapshot select: select geocoderre_.id, geocoderre_.address as address2_0_, geocoderre_.geom as geom3_0_, geocoderre_.latitude as latitude4_0_, geocoderre_.longitude as longitud5_0_, geocoderre_.rating as rating6_0_ from geocoder_results geocoderre_ where geocoderre_.id=?
+07 Jan 2018 08:48:39.165 2333 [main] DEBUG o.h.p.e.AbstractEntityPersister 394 :  Insert 0: insert into geocoder_results (address, geom, latitude, longitude, rating, id) values (?, ?, ?, ?, ?, ?)
+07 Jan 2018 08:48:39.165 2333 [main] DEBUG o.h.p.e.AbstractEntityPersister 394 :  Update 0: update geocoder_results set address=?, geom=?, latitude=?, longitude=?, rating=? where id=?
+07 Jan 2018 08:48:39.166 2334 [main] DEBUG o.h.p.e.AbstractEntityPersister 394 :  Delete 0: delete from geocoder_results where id=?
+07 Jan 2018 08:48:39.178 2346 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl 174 : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@73041b7d]
+07 Jan 2018 08:48:39.179 2347 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : address
+07 Jan 2018 08:48:39.180 2348 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : geom
+07 Jan 2018 08:48:39.180 2348 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : latitude
+07 Jan 2018 08:48:39.180 2348 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : longitude
+07 Jan 2018 08:48:39.181 2349 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : rating
+07 Jan 2018 08:48:39.181 2349 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 : Building LoadPlan...
+07 Jan 2018 08:48:39.190 2358 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor 100 : processing queryspace <gen:0>
+07 Jan 2018 08:48:39.193 2361 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter 55 : LoadPlan(entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - Returns
+       - EntityReturnImpl(entity=net.ljcomputing.geocoder.entity.GeocoderResults, querySpaceUid=<gen:0>, path=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+          - SQL table alias mapping - geocoderre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+07 Jan 2018 08:48:39.195 2363 [main] DEBUG o.h.loader.entity.plan.EntityLoader 115 : Static select for entity net.ljcomputing.geocoder.entity.GeocoderResults [NONE]: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=?
+07 Jan 2018 08:48:39.195 2363 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl 174 : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@134f8ef6]
+07 Jan 2018 08:48:39.196 2364 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : address
+07 Jan 2018 08:48:39.196 2364 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : geom
+07 Jan 2018 08:48:39.196 2364 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : latitude
+07 Jan 2018 08:48:39.197 2365 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : longitude
+07 Jan 2018 08:48:39.197 2365 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : rating
+07 Jan 2018 08:48:39.197 2365 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 : Building LoadPlan...
+07 Jan 2018 08:48:39.197 2365 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor 100 : processing queryspace <gen:0>
+07 Jan 2018 08:48:39.198 2366 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter 55 : LoadPlan(entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - Returns
+       - EntityReturnImpl(entity=net.ljcomputing.geocoder.entity.GeocoderResults, querySpaceUid=<gen:0>, path=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+          - SQL table alias mapping - geocoderre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+07 Jan 2018 08:48:39.198 2366 [main] DEBUG o.h.loader.entity.plan.EntityLoader 115 : Static select for entity net.ljcomputing.geocoder.entity.GeocoderResults [READ]: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=?
+07 Jan 2018 08:48:39.198 2366 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl 174 : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6a32191e]
+07 Jan 2018 08:48:39.198 2366 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : address
+07 Jan 2018 08:48:39.198 2366 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : geom
+07 Jan 2018 08:48:39.199 2367 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : latitude
+07 Jan 2018 08:48:39.199 2367 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : longitude
+07 Jan 2018 08:48:39.199 2367 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : rating
+07 Jan 2018 08:48:39.199 2367 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 : Building LoadPlan...
+07 Jan 2018 08:48:39.199 2367 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor 100 : processing queryspace <gen:0>
+07 Jan 2018 08:48:39.200 2368 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter 55 : LoadPlan(entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - Returns
+       - EntityReturnImpl(entity=net.ljcomputing.geocoder.entity.GeocoderResults, querySpaceUid=<gen:0>, path=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+          - SQL table alias mapping - geocoderre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+07 Jan 2018 08:48:39.200 2368 [main] DEBUG o.h.loader.entity.plan.EntityLoader 115 : Static select for entity net.ljcomputing.geocoder.entity.GeocoderResults [UPGRADE]: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=? for update
+07 Jan 2018 08:48:39.200 2368 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl 174 : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@9accff0]
+07 Jan 2018 08:48:39.200 2368 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : address
+07 Jan 2018 08:48:39.200 2368 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : geom
+07 Jan 2018 08:48:39.201 2369 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : latitude
+07 Jan 2018 08:48:39.201 2369 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : longitude
+07 Jan 2018 08:48:39.201 2369 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : rating
+07 Jan 2018 08:48:39.201 2369 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 : Building LoadPlan...
+07 Jan 2018 08:48:39.201 2369 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor 100 : processing queryspace <gen:0>
+07 Jan 2018 08:48:39.202 2370 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter 55 : LoadPlan(entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - Returns
+       - EntityReturnImpl(entity=net.ljcomputing.geocoder.entity.GeocoderResults, querySpaceUid=<gen:0>, path=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+          - SQL table alias mapping - geocoderre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+07 Jan 2018 08:48:39.202 2370 [main] DEBUG o.h.loader.entity.plan.EntityLoader 115 : Static select for entity net.ljcomputing.geocoder.entity.GeocoderResults [UPGRADE_NOWAIT]: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=? for update nowait 
+07 Jan 2018 08:48:39.202 2370 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl 174 : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@285583d4]
+07 Jan 2018 08:48:39.202 2370 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : address
+07 Jan 2018 08:48:39.202 2370 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : geom
+07 Jan 2018 08:48:39.203 2371 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : latitude
+07 Jan 2018 08:48:39.203 2371 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : longitude
+07 Jan 2018 08:48:39.203 2371 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : rating
+07 Jan 2018 08:48:39.203 2371 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 : Building LoadPlan...
+07 Jan 2018 08:48:39.203 2371 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor 100 : processing queryspace <gen:0>
+07 Jan 2018 08:48:39.204 2372 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter 55 : LoadPlan(entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - Returns
+       - EntityReturnImpl(entity=net.ljcomputing.geocoder.entity.GeocoderResults, querySpaceUid=<gen:0>, path=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+          - SQL table alias mapping - geocoderre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+07 Jan 2018 08:48:39.204 2372 [main] DEBUG o.h.loader.entity.plan.EntityLoader 115 : Static select for entity net.ljcomputing.geocoder.entity.GeocoderResults [UPGRADE_SKIPLOCKED]: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=? for update
+07 Jan 2018 08:48:39.204 2372 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl 174 : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7f85217c]
+07 Jan 2018 08:48:39.204 2372 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : address
+07 Jan 2018 08:48:39.204 2372 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : geom
+07 Jan 2018 08:48:39.205 2373 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : latitude
+07 Jan 2018 08:48:39.205 2373 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : longitude
+07 Jan 2018 08:48:39.205 2373 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : rating
+07 Jan 2018 08:48:39.205 2373 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 : Building LoadPlan...
+07 Jan 2018 08:48:39.205 2373 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor 100 : processing queryspace <gen:0>
+07 Jan 2018 08:48:39.206 2374 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter 55 : LoadPlan(entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - Returns
+       - EntityReturnImpl(entity=net.ljcomputing.geocoder.entity.GeocoderResults, querySpaceUid=<gen:0>, path=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+          - SQL table alias mapping - geocoderre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+07 Jan 2018 08:48:39.206 2374 [main] DEBUG o.h.loader.entity.plan.EntityLoader 115 : Static select for entity net.ljcomputing.geocoder.entity.GeocoderResults [FORCE]: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=? for update nowait 
+07 Jan 2018 08:48:39.206 2374 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl 174 : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5b202ff]
+07 Jan 2018 08:48:39.206 2374 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : address
+07 Jan 2018 08:48:39.206 2374 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : geom
+07 Jan 2018 08:48:39.207 2375 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : latitude
+07 Jan 2018 08:48:39.207 2375 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : longitude
+07 Jan 2018 08:48:39.207 2375 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : rating
+07 Jan 2018 08:48:39.207 2375 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 : Building LoadPlan...
+07 Jan 2018 08:48:39.207 2375 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor 100 : processing queryspace <gen:0>
+07 Jan 2018 08:48:39.208 2376 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter 55 : LoadPlan(entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - Returns
+       - EntityReturnImpl(entity=net.ljcomputing.geocoder.entity.GeocoderResults, querySpaceUid=<gen:0>, path=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+          - SQL table alias mapping - geocoderre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+07 Jan 2018 08:48:39.208 2376 [main] DEBUG o.h.loader.entity.plan.EntityLoader 115 : Static select for entity net.ljcomputing.geocoder.entity.GeocoderResults [PESSIMISTIC_READ]: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=? for share
+07 Jan 2018 08:48:39.208 2376 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl 174 : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e700eba]
+07 Jan 2018 08:48:39.208 2376 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : address
+07 Jan 2018 08:48:39.208 2376 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : geom
+07 Jan 2018 08:48:39.209 2377 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : latitude
+07 Jan 2018 08:48:39.209 2377 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : longitude
+07 Jan 2018 08:48:39.209 2377 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : rating
+07 Jan 2018 08:48:39.209 2377 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 : Building LoadPlan...
+07 Jan 2018 08:48:39.209 2377 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor 100 : processing queryspace <gen:0>
+07 Jan 2018 08:48:39.209 2377 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter 55 : LoadPlan(entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - Returns
+       - EntityReturnImpl(entity=net.ljcomputing.geocoder.entity.GeocoderResults, querySpaceUid=<gen:0>, path=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+          - SQL table alias mapping - geocoderre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+07 Jan 2018 08:48:39.210 2378 [main] DEBUG o.h.loader.entity.plan.EntityLoader 115 : Static select for entity net.ljcomputing.geocoder.entity.GeocoderResults [PESSIMISTIC_WRITE]: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=? for update
+07 Jan 2018 08:48:39.210 2378 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl 174 : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7186b202]
+07 Jan 2018 08:48:39.210 2378 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : address
+07 Jan 2018 08:48:39.210 2378 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : geom
+07 Jan 2018 08:48:39.210 2378 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : latitude
+07 Jan 2018 08:48:39.210 2378 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : longitude
+07 Jan 2018 08:48:39.211 2379 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : rating
+07 Jan 2018 08:48:39.211 2379 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 : Building LoadPlan...
+07 Jan 2018 08:48:39.211 2379 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor 100 : processing queryspace <gen:0>
+07 Jan 2018 08:48:39.211 2379 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter 55 : LoadPlan(entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - Returns
+       - EntityReturnImpl(entity=net.ljcomputing.geocoder.entity.GeocoderResults, querySpaceUid=<gen:0>, path=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+          - SQL table alias mapping - geocoderre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+07 Jan 2018 08:48:39.211 2379 [main] DEBUG o.h.loader.entity.plan.EntityLoader 115 : Static select for entity net.ljcomputing.geocoder.entity.GeocoderResults [PESSIMISTIC_FORCE_INCREMENT]: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=? for update nowait 
+07 Jan 2018 08:48:39.212 2380 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl 174 : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@65ef48f2]
+07 Jan 2018 08:48:39.212 2380 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : address
+07 Jan 2018 08:48:39.212 2380 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : geom
+07 Jan 2018 08:48:39.212 2380 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : latitude
+07 Jan 2018 08:48:39.212 2380 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : longitude
+07 Jan 2018 08:48:39.212 2380 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : rating
+07 Jan 2018 08:48:39.213 2381 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 : Building LoadPlan...
+07 Jan 2018 08:48:39.213 2381 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor 100 : processing queryspace <gen:0>
+07 Jan 2018 08:48:39.213 2381 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter 55 : LoadPlan(entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - Returns
+       - EntityReturnImpl(entity=net.ljcomputing.geocoder.entity.GeocoderResults, querySpaceUid=<gen:0>, path=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+          - SQL table alias mapping - geocoderre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+07 Jan 2018 08:48:39.213 2381 [main] DEBUG o.h.loader.entity.plan.EntityLoader 115 : Static select for entity net.ljcomputing.geocoder.entity.GeocoderResults [OPTIMISTIC]: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=?
+07 Jan 2018 08:48:39.214 2382 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl 174 : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@72543547]
+07 Jan 2018 08:48:39.214 2382 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : address
+07 Jan 2018 08:48:39.214 2382 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : geom
+07 Jan 2018 08:48:39.214 2382 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : latitude
+07 Jan 2018 08:48:39.214 2382 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : longitude
+07 Jan 2018 08:48:39.214 2382 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker 137 : Visiting attribute path : rating
+07 Jan 2018 08:48:39.214 2382 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 150 : Building LoadPlan...
+07 Jan 2018 08:48:39.215 2383 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor 100 : processing queryspace <gen:0>
+07 Jan 2018 08:48:39.215 2383 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter 55 : LoadPlan(entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - Returns
+       - EntityReturnImpl(entity=net.ljcomputing.geocoder.entity.GeocoderResults, querySpaceUid=<gen:0>, path=net.ljcomputing.geocoder.entity.GeocoderResults)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=net.ljcomputing.geocoder.entity.GeocoderResults)
+          - SQL table alias mapping - geocoderre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+07 Jan 2018 08:48:39.215 2383 [main] DEBUG o.h.loader.entity.plan.EntityLoader 115 : Static select for entity net.ljcomputing.geocoder.entity.GeocoderResults [OPTIMISTIC_FORCE_INCREMENT]: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=?
+07 Jan 2018 08:48:39.226 2394 [main] DEBUG org.hibernate.loader.Loader 38 : Static select for action ACTION_MERGE on entity net.ljcomputing.geocoder.entity.GeocoderResults: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=?
+07 Jan 2018 08:48:39.226 2394 [main] DEBUG org.hibernate.loader.Loader 38 : Static select for action ACTION_REFRESH on entity net.ljcomputing.geocoder.entity.GeocoderResults: select geocoderre0_.id as id1_0_0_, geocoderre0_.address as address2_0_0_, geocoderre0_.geom as geom3_0_0_, geocoderre0_.latitude as latitude4_0_0_, geocoderre0_.longitude as longitud5_0_0_, geocoderre0_.rating as rating6_0_0_ from geocoder_results geocoderre0_ where geocoderre0_.id=?
+07 Jan 2018 08:48:39.226 2394 [main] DEBUG o.h.internal.SessionFactoryImpl 453 : Instantiated session factory
+07 Jan 2018 08:48:39.228 2396 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate 105 : HHH000228: Running hbm2ddl schema update
+07 Jan 2018 08:48:39.311 2479 [main] DEBUG org.hibernate.mapping.Table 505 : No alter strings for table : geocoder_results
+07 Jan 2018 08:48:39.327 2495 [main] DEBUG o.h.internal.NamedQueryRepository 149 : Checking 0 named HQL queries
+07 Jan 2018 08:48:39.327 2495 [main] DEBUG o.h.internal.NamedQueryRepository 165 : Checking 0 named SQL queries
+07 Jan 2018 08:48:39.329 2497 [main] DEBUG o.h.internal.SessionFactoryRegistry 52 : Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@62b09715
+07 Jan 2018 08:48:39.329 2497 [main] DEBUG o.h.internal.SessionFactoryRegistry 74 : Registering SessionFactory: b0bb4499-caff-471f-96d6-15d3296fe1de (<unnamed>)
+07 Jan 2018 08:48:39.329 2497 [main] DEBUG o.h.internal.SessionFactoryRegistry 81 : Not binding SessionFactory to JNDI, no JNDI name configured
+07 Jan 2018 08:48:39.333 2501 [main] DEBUG o.h.j.i.s.JpaSchemaGenerator 106 : No actions specified; doing nothing
+07 Jan 2018 08:48:39.358 2526 [main] DEBUG o.h.j.i.EntityManagerFactoryRegistry 39 : Initializing EntityManagerFactoryRegistry : org.hibernate.jpa.internal.EntityManagerFactoryRegistry@23468512
+07 Jan 2018 08:48:39.358 2526 [main] DEBUG o.h.j.i.EntityManagerFactoryRegistry 49 : Registering EntityManagerFactory: default 
+07 Jan 2018 08:48:39.456 2624 [main] DEBUG o.h.s.internal.StatisticsInitiator 82 : Statistics initialized [enabled=false]
+07 Jan 2018 08:48:39.545 2713 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver 103 : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+07 Jan 2018 08:48:39.545 2713 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver 114 : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+07 Jan 2018 08:48:39.550 2718 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver 103 : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+07 Jan 2018 08:48:39.550 2718 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver 114 : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+07 Jan 2018 08:48:39.550 2718 [main] DEBUG o.h.v.i.engine.ConfigurationImpl 163 : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+07 Jan 2018 08:48:39.550 2718 [main] DEBUG o.h.v.i.engine.ConfigurationImpl 185 : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+07 Jan 2018 08:48:39.551 2719 [main] DEBUG o.h.v.i.engine.ConfigurationImpl 199 : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy59
+07 Jan 2018 08:48:39.551 2719 [main] DEBUG o.h.v.i.xml.ValidationXmlParser 99 : Trying to load META-INF/validation.xml for XML based Validator configuration.
+07 Jan 2018 08:48:39.551 2719 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper 47 : Trying to load META-INF/validation.xml via user class loader
+07 Jan 2018 08:48:39.551 2719 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper 54 : Trying to load META-INF/validation.xml via TCCL
+07 Jan 2018 08:48:39.551 2719 [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper 60 : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+07 Jan 2018 08:48:39.552 2720 [main] DEBUG o.h.v.i.xml.ValidationXmlParser 106 : No META-INF/validation.xml found. Using annotation based configuration only.
+07 Jan 2018 08:48:39.671 2839 [main] INFO  n.l.g.s.i.GeocoderServiceImplTest 57 : Started GeocoderServiceImplTest in 2.424 seconds (JVM running for 3.085)
+07 Jan 2018 08:48:39.699 2867 [main] DEBUG o.h.e.t.internal.TransactionImpl 51 : begin
+07 Jan 2018 08:48:39.735 2903 [main] DEBUG org.hibernate.SQL 92 : SELECT ROW_NUMBER() OVER() as id, ST_X((g).geomout) as longitude, ST_Y((g).geomout) as latitude, (g).rating as rating, (g).geomout geom, to_json(addy) AS address FROM tiger.geocode(tiger.pagc_normalize_address(?), 50) AS g
+07 Jan 2018 08:48:39.742 2910 [main] DEBUG org.hibernate.loader.Loader 2088 : bindNamedParameters() 400,North Street,Harrisburg,PA,17120 -> 1 [1]
+07 Jan 2018 08:48:40.029 3197 [main] DEBUG org.hibernate.loader.Loader 384 : Result set row: 0
+07 Jan 2018 08:48:40.030 3198 [main] DEBUG org.hibernate.loader.Loader 1515 : Result row: EntityKey[net.ljcomputing.geocoder.entity.GeocoderResults#1]
+07 Jan 2018 08:48:40.610 3778 [main] DEBUG org.geolatte.geom.crs.CrsRegistry 89 : Non-EPSG CRS ignored: PROJCS["Popular Visualisation CRS / Mercator (deprecated)",GEOGCS["Popular Visualisation CRS",DATUM["Popular_Visualisation_Datum",SPHEROID["Popular Visualisation Sphere",6378137,0,AUTHORITY["EPSG","7059"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6055"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.01745329251994328,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4055"]],UNIT["metre",1,AUTHORITY["EPSG","9001"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],AUTHORITY["EPSG","3785"],AXIS["X",EAST],AXIS["Y",NORTH]]
+07 Jan 2018 08:48:40.625 3793 [main] DEBUG o.h.engine.internal.TwoPhaseLoad 144 : Resolving associations for [net.ljcomputing.geocoder.entity.GeocoderResults#1]
+07 Jan 2018 08:48:40.626 3794 [main] DEBUG o.h.engine.internal.TwoPhaseLoad 274 : Done materializing entity [net.ljcomputing.geocoder.entity.GeocoderResults#1]
+07 Jan 2018 08:48:40.760 3928 [main] DEBUG o.h.e.t.internal.TransactionImpl 62 : committing
+07 Jan 2018 08:48:40.760 3928 [main] DEBUG o.h.e.i.AbstractFlushingEventListener 132 : Processing flush-time cascades
+07 Jan 2018 08:48:40.762 3930 [main] DEBUG o.h.e.i.AbstractFlushingEventListener 174 : Dirty checking collections
+07 Jan 2018 08:48:40.763 3931 [main] DEBUG o.h.e.i.AbstractFlushingEventListener 106 : Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+07 Jan 2018 08:48:40.764 3932 [main] DEBUG o.h.e.i.AbstractFlushingEventListener 113 : Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+07 Jan 2018 08:48:40.764 3932 [main] DEBUG o.h.internal.util.EntityPrinter 102 : Listing entities:
+07 Jan 2018 08:48:40.766 3934 [main] DEBUG o.h.internal.util.EntityPrinter 109 : net.ljcomputing.geocoder.entity.GeocoderResults{address={"address":400,"predirabbrev":null,"streetname":"North","streettypeabbrev":"St","postdirabbrev":null,"internal":null,"location":"Harrisburg","stateabbrev":"PA","zip":"17120","parsed":true}, latitude=40.26550102108923, rating=0, id=1, geom=POINT (-76.88447946817182 40.26550102108923), longitude=-76.88447946817182}
+07 Jan 2018 08:48:40.769 3937 [main] DEBUG n.l.g.s.i.GeocoderServiceImplTest 59 : {"type":"Feature","geometry":{"type":"Point","coordinates":[-76.8845,40.2655]},"properties":{"rating":0,"latitude":40.26550102108923,"longitude":-76.88447946817182,"zip":"17120","internal":"null","address":"400","streetname":"North","location":"Harrisburg","parsed":"true","stateabbrev":"PA","predirabbrev":"null","postdirabbrev":"null","streettypeabbrev":"St"},"id":"1"}
+07 Jan 2018 08:48:40.776 3944 [Thread-4] DEBUG o.h.internal.SessionFactoryImpl 1054 : HHH000031: Closing
+07 Jan 2018 08:48:40.777 3945 [Thread-4] DEBUG o.h.s.i.AbstractServiceRegistryImpl 407 : Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+07 Jan 2018 08:48:40.777 3945 [Thread-4] DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl 286 : Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+07 Jan 2018 08:48:40.777 3945 [Thread-4] DEBUG o.h.j.i.EntityManagerFactoryRegistry 91 : Remove: name=default

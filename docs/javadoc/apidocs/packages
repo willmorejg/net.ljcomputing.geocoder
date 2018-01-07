@@ -1,0 +1,6 @@
+net.ljcomputing.geocoder
+net.ljcomputing.geocoder.repository
+net.ljcomputing.geocoder.entity
+net.ljcomputing.geocoder.service.impl
+net.ljcomputing.geocoder.service
+net.ljcomputing.geocoder.controller
