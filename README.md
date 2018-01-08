@@ -15,6 +15,23 @@ Building:
 ---------------
 1. mvn clean compile
 
+Preparation:
+-------------
+You must update the [application.properties](/src/test/resources/application.properties) file before running the JUnit test(s).
+
+```
+logging.config=file\:./src/test/resources/logback.xml
+
+spring.datasource.url= jdbc:postgresql://HOST:PORT/DATABASE
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.username=USERNAME GOES HERE
+spring.datasource.password=PASSWORD GOES HERE
+
+spring.jpa.database-platform=org.hibernate.spatial.dialect.postgis.PostgisDialect
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.show-sql=true
+```
 Testing:
 ---------------
 1. mvn clean compile test
