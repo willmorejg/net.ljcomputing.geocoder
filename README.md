@@ -32,6 +32,7 @@ spring.jpa.generate-ddl=true
 spring.jpa.hibernate.ddl-auto=none
 spring.jpa.show-sql=true
 ```
+
 Testing:
 ---------------
 1. mvn clean compile test
