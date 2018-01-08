@@ -34,7 +34,7 @@ spring.jpa.show-sql=true
 ```
 
 Testing:
----------------
+---------
 1. mvn clean compile test
 
 Inclusion with existing Java application:
