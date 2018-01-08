@@ -19,9 +19,10 @@ Testing:
 ---------------
 1. mvn clean compile test
 
-TODO:
----------------
-1. Provide method to add this project as a Maven dependency to an existing project (maybe Maven Central).
+Inclusion with existing Java application:
+-----------------------------------------
+[The project is available using JitPack](https://jitpack.io/#willmorejg/net.ljcomputing.geocoder/)
+
 
 Resources:
 1. [https://experimentalcraft.wordpress.com/2017/11/01/how-to-make-a-postgis-tiger-geocoder-in-less-than-5-days/](https://experimentalcraft.wordpress.com/2017/11/01/how-to-make-a-postgis-tiger-geocoder-in-less-than-5-days/)
